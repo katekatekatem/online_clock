@@ -1,0 +1,47 @@
+# --- Python general ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+venv/
+.env/
+env/
+.venv/
+
+# --- IDE / editor stuff ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & cache ---
+*.log
+*.tmp
+*.bak
+*.cache/
+.cache/
+*.sqlite3
+
+# --- Test & coverage ---
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Build & packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Local settings ---
+config.json
+.settings/
+
+online_clock.log

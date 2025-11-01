@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Clock</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script defer src="/static/js/clock.js"></script>
+</head>
+<body>
+  <div class="clock-container">
+    <h1 style="margin-top: -5px;">🕒</h1>
+    <h1>Online Clock</h1>
+    <div id="clock" class="clock">--:--:--</div>
+    <div class="controls">
+      <label for="timezone-select">Select timezone:</label>
+      <select id="timezone-select">
+        {TIMEZONE_OPTIONS}
+      </select>
+    </div>
+  </div>
+</body>
+</html>
